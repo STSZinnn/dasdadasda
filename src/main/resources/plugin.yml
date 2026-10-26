@@ -1,0 +1,14 @@
+name: SovereignSMP
+version: '1.1.0'
+main: com.sovereignsmp.SovereignSMPPlugin
+api-version: '1.21.11'
+description: Seven legendary artifacts — Sovereign Mace of Gravity (first artifact)
+author: SovereignSMP
+commands:
+  sovereign:
+    description: Sovereign artifacts, claiming, and administration
+    usage: /sovereign help
+permissions:
+  sovereign.admin:
+    description: Mint or recover a unique Sovereign artifact
+    default: op

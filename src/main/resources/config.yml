@@ -1,0 +1,35 @@
+# Sovereign SMP 1.0 — Artifact 1 / 7: Sovereign Mace of Gravity
+# Auto-created as plugins/SovereignSMP/config.yml
+# Cooldowns are per-user and in seconds; all distances are in Minecraft blocks.
+# Damage is Minecraft health points (2 = 1 heart), before armor reductions.
+
+mace:
+  passive:
+    slowness-ticks: 45  # Every third successful mace hit, Slowness II + downward tug
+  event-horizon:
+    cooldown-seconds: 18
+    radius-blocks: 13.0
+    target-range-blocks: 28.0
+    pull-velocity: 1.95
+    pull-duration-ticks: 22
+    slowness-ticks: 45
+  collapse:
+    cooldown-seconds: 25
+    radius-blocks: 9.0
+    damage-health-points: 5.0
+    knockback: 1.2
+  singularity:
+    cooldown-seconds: 40
+    target-range-blocks: 20.0
+    radius-blocks: 6.5
+    burst-push-velocity: 2.1
+    orbit-block-count: 12
+    block-sample-radius: 5.0
+    duration-ticks: 80
+    burst-damage-health-points: 6.0
+
+# All artifact tooltips have RGB-gradient titles and descriptions without a pack.
+# The background + frame need the OPTIONAL tooltip-only resource pack.
+# Leave disabled if your server isn't distributing the pack yet.
+tooltips:
+  custom-background-enabled: false
